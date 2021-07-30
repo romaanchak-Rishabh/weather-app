@@ -47,7 +47,7 @@ const Temp = () => {
             <div className='search'>
                 <input type='search' placeholder='search...' autoFocus id='search' className='searchTerm' value={searchValue} onChange={(e) => getSearchValue(e.target.value)} />
                 <button className='searchButton' type='button' onClick={getWeatherInfo}>
-                    Search
+                    Search City Name
                 </button>
             </div>
         </div>
